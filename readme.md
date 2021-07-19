@@ -6,6 +6,9 @@ https://manuwweb.com/ -> contacto
 
 https://tiagopratas.vercel.app/#contact
 
-https://www.youtube.com/watch?v=pX1IOS-gRZc -> scss
+https://www.youtube.com/watch?v=pX1IOS-gRZc -> scss / skills
 
 https://www.youtube.com/watch?v=R4Yen8drsrY -> cabecera
+
+# carousel -> {https://cdnjs.com/libraries/waypoints    https://cdnjs.com/libraries/OwlCarousel2}
+
