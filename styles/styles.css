@@ -134,7 +134,8 @@ nav.sticky .navbar__icons a{
     color:#a990ea;
     font-size: 25px;
     font-weight: 500;
-    padding: 8px 16px;
+    margin-bottom: 10px;
+    padding: 10px 16px;
     background: #253960;
     border-radius: 10px;
     border: 2px solid transparent;
@@ -142,8 +143,8 @@ nav.sticky .navbar__icons a{
 }
 
 .home__button-btn:hover{
-    color: #a990ea;
-    background-color: #ffc4ff;
+    background: #253960;
+    color:#fff;
     border-color: #a990ea;
 }
 
@@ -161,26 +162,9 @@ nav.sticky .navbar__icons a{
 }
 
 .about__title span{
-    font-size: 30px;
-    font-weight: 600;
-    position: relative;
-}
-
-.about__title span::before, .about__title span::after{
-    content:'';
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    height: 3px;
-    width: 100%;
-    background: #ffc4ff;
-}
-
-.about__title span::after{
-    width: 70%;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -15px;
+    font-size: 35px;
+    font-weight: 900;
+    border-bottom: 2px solid #a990ea;
 }
 
 .about__details{
@@ -198,7 +182,7 @@ nav.sticky .navbar__icons a{
 }
 
 .about__details-left .topic{
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 500;
     color: #5c61a0;
     margin-top: 10px;
@@ -208,6 +192,7 @@ nav.sticky .navbar__icons a{
 .about__details-left p{
     color: #5c61a0;
     text-align: justify;
+    font-size: 20px;
 }
 
 .about__details-right img{
@@ -239,26 +224,9 @@ nav.sticky .navbar__icons a{
 }
 
 .skills__title span{
-    font-size: 30px;
-    font-weight: 600;
-    position: relative;
-}
-
-.skills__title span::before, .skills__title span::after{
-    content:'';
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    height: 3px;
-    width: 100%;
-    background: #ffc4ff;
-}
-
-.skills__title span::after{
-    width: 70%;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -15px;
+    font-size: 35px;
+    font-weight: 900;
+    border-bottom: 2px solid #a990ea;
 }
 
 .skills__cards{
@@ -292,26 +260,9 @@ nav.sticky .navbar__icons a{
 }
 
 .works__title span{
-    font-size: 30px;
-    font-weight: 600;
-    position: relative;
-}
-
-.works__title span::before, .works__title span::after{
-    content:'';
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    height: 3px;
-    width: 100%;
-    background: #ffc4ff;
-}
-
-.works__title span::after{
-    width: 70%;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -15px;
+    font-size: 35px;
+    font-weight: 900;
+    border-bottom: 2px solid #a990ea;
 }
 
 .carousel{
@@ -365,26 +316,9 @@ nav.sticky .navbar__icons a{
 }
 
 .contact__title span{
-    font-size: 30px;
-    font-weight: 600;
-    position: relative;
-}
-
-.contact__title span::before, .contact__title span::after{
-    content:'';
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    height: 3px;
-    width: 100%;
-    background: #ffc4ff;
-}
-
-.contact__title span::after{
-    width: 70%;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -15px;
+    font-size: 35px;
+    font-weight: 900;
+    border-bottom: 2px solid #a990ea;
 }
 
 .contact__text{
@@ -425,6 +359,10 @@ nav.sticky .navbar__icons a{
     .about__content{
         width: 85%;
     }
+
+    .contact__topic-text{
+        margin: 20px 30%;
+    }
 }
 
 @media (max-width: 1090px){
@@ -444,6 +382,10 @@ nav.sticky .navbar__icons a{
 
     .contact__text{
         width: 90%;
+    }
+
+    .contact__topic-text{
+        margin: 20px 30%;
     }
 }
 
@@ -472,7 +414,6 @@ nav.sticky .navbar__icons a{
     .navbar.active .navbar__menu{
         left:0;
     }
-
 
     .navbar__menu-li a{
         display: block;
