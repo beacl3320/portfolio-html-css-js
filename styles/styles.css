@@ -202,6 +202,7 @@ nav.sticky .navbar__icons a{
     font-weight: 500;
     color: #5c61a0;
     margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .about__details-left p{
@@ -214,22 +215,6 @@ nav.sticky .navbar__icons a{
     width: 400px;
     object-fit: cover;
     border-radius: 15px;
-}
-
-.about__button{
-    margin: 14px 0;
-}
-
-.about__button-btn{
-    outline: none;
-    color:#a990ea;
-    font-size: 25px;
-    font-weight: 500;
-    padding: 8px 16px;
-    background: #253960;
-    border-radius: 10px;
-    border: 2px solid transparent;
-    transition: all 0.4s ease;
 }
 
 .about__button-btn:hover{
@@ -362,6 +347,10 @@ nav.sticky .navbar__icons a{
     margin-top: 20px;
 }
 
+.box__text-a:hover{
+    color: #253960;
+}
+
 /* CONTACT ME CSS */
 .contact{
     background: #aa90ea3f;
@@ -404,8 +393,31 @@ nav.sticky .navbar__icons a{
     width: 80%;
 }
 
+.contact__topic{
+    color: #5c61a0;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
 
+.contact__topic p{
+    font-size: 18px;
+    padding-top: 5px;
+}
 
+.contact__topic-text{
+    color: #5c61a0;
+    font-weight: 700;
+    border: 1px solid #a990ea;
+    margin: 20px 40%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact__topic-text:hover{
+    background: #253960;
+    color:#fff;
+}
 
 
 /* RESPONSIVE MEDIA QUERY */
@@ -487,6 +499,10 @@ nav.sticky .navbar__icons a{
     .contact__text{
         width: 100%;
     }
+
+    .contact__topic-text{
+        margin: 20px 20%;
+    }
 }
 
 @media (max-width: 510px) {
@@ -496,5 +512,9 @@ nav.sticky .navbar__icons a{
 
     .text__three{
         font-size: 32px;
+    }
+
+    .contact__topic-text{
+        margin: 20px 10%;
     }
 }
