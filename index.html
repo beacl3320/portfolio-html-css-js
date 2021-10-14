@@ -11,10 +11,19 @@
             integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
             crossorigin="anonymous"
         />
+        <link
+            rel="shortcut icon"
+            href="assets/butterfly.ico"
+            type="image/x-icon"
+        />
 
         <title>Portfolio Bea CL</title>
     </head>
     <body>
+        <!-- scroll to top button -->
+        <div class="scroll">
+            <a href="#home"><i class="fas fa-arrow-circle-up"></i></a>
+        </div>
         <!-- navigation menu -->
         <nav>
             <div class="navbar">
@@ -77,7 +86,7 @@
                 <div class="about__title"><span>Acerca de mí</span></div>
                 <div class="about__details">
                     <div class="about__details-right">
-                        <img src="assets/bea.jpg" alt="imagen bea" />
+                        <img src="assets/bea2.jpg" alt="imagen bea" />
                     </div>
                     <div class="about__details-left">
                         <div class="topic">
@@ -108,7 +117,8 @@
                 <div class="skills__title"><span>Tecnologías</span></div>
                 <div class="skills__container">
                     <div class="skills__cards">
-                        <div class="skills__cards-card">HTML & CSS</div>
+                        <div class="skills__cards-card">HTML</div>
+                        <div class="skills__cards-card">CSS</div>
                         <div class="skills__cards-card">Bootstrap</div>
                         <div class="skills__cards-card">JavaScript</div>
                         <div class="skills__cards-card">React</div>
@@ -118,6 +128,7 @@
                         <div class="skills__cards-card">MySql</div>
                         <div class="skills__cards-card">PHP</div>
                         <div class="skills__cards-card">Symfony</div>
+                        <div class="skills__cards-card">Git</div>
                     </div>
                 </div>
             </div>
@@ -136,7 +147,7 @@
                                 alt="exercise bmw"
                             />
                             <div class="box__text">
-                                <p>Ejercicio BMW</p>
+                                <p>Proyecto BMW</p>
                                 <p>HTML & CSS</p>
                             </div>
                             <a href="#">Repo Gitlab</a>
@@ -149,7 +160,7 @@
                                 alt="exercise animalcrossing"
                             /></a>
                             <div class="box__text">
-                                <p>Ejercicio Nintendo</p>
+                                <p>Proyecto Nintendo</p>
                                 <p>HTML, CSS & Boostrap</p>
                             </div>
                             <a
@@ -160,16 +171,32 @@
                     </div>
                     <div class="carousel__card">
                         <div class="carousel__box">
-                            <a href="https://ejercicio-carrito-compra.netlify.app/"><img
-                                src="assets/carrito con html css js.png"
-                                alt="exercise carrito compra"
+                            <a href="https://calculadorabeacldesign.netlify.app/"><img
+                                src="assets/calculadora.png"
+                                alt="exercise calculadora"
                             /></a>
                             <div class="box__text">
-                                <p>Ejercicio Carrito Compra</p>
-                                <p>HTML, Bootstrap y JavaScript</p>
+                                <p>Proyecto Calculadora</p>
+                                <p>HTML, Css y JavaScript</p>
                             </div>
                             <a
-                                href="https://github.com/beacl3320/carrito-compra"
+                                href="https://github.com/beacl3320/calculadora"
+                                >Repo Github</a
+                            >
+                        </div>
+                    </div>
+                    <div class="carousel__card">
+                        <div class="carousel__box">
+                            <a href="https://webnoticiashtmlcssjs.netlify.app/"><img
+                                src="assets/web noticias.png.jpg"
+                                alt="exercise webNoticias"
+                            /></a>
+                            <div class="box__text">
+                                <p>Proyecto Web Noticias</p>
+                                <p>HTML, Css y JavaScript</p>
+                            </div>
+                            <a
+                                href="https://github.com/beacl3320/sitio_web_noticias"
                                 >Repo Github</a
                             >
                         </div>
@@ -181,7 +208,7 @@
                                 alt="exercise rivas"
                             />
                             <div class="box__text">
-                                <p>Ejercicio Equipo de fútbol</p>
+                                <p>Proyecto Equipo de fútbol</p>
                                 <p>Node, Handlebars y MongoDB</p>
                                 <a
                                     class="box__text-a"
@@ -198,7 +225,7 @@
                                     alt="exercise streamly"
                             />
                             <div class="box__text">
-                                <p>Ejercicio Grupal Streamly</p>
+                                <p>Proyecto Grupal Streamly</p>
                                 <p>React, Node y MongoDB</p>
                             </div>
                             <a href="https://gitlab.com/streamly-app"
@@ -209,24 +236,11 @@
                     <div class="carousel__card">
                         <div class="carousel__box">
                             <img
-                                src="assets/pullandbear html css.png"
-                                alt="exercise pull and bear"
-                            />
-                            <div class="box__text">
-                                <p>Ejercicio Pull and Bear</p>
-                                <p>HTML & CSS</p>
-                            </div>
-                            <a href="#">Repo Gitlab</a>
-                        </div>
-                    </div>
-                    <div class="carousel__card">
-                        <div class="carousel__box">
-                            <img
                                 src="assets/dragonBallAngular.png"
                                 alt="exercise dragonBall"
                             />
                             <div class="box__text">
-                                <p>Ejercicio Dragon Ball</p>
+                                <p>Proyecto Dragon Ball</p>
                                 <p>Angular y SCSS</p>
                             </div>
                             <a
@@ -242,7 +256,7 @@
                                 alt="exercise hubDeJuegos"
                             />
                             <div class="box__text">
-                                <p>Ejercicio Hub de Juegos</p>
+                                <p>Proyecto Hub de Juegos</p>
                                 <p>React, Node y MongoDB</p>
                             </div>
                             <a href="https://gitlab.com/bea3320/juegos"
@@ -259,8 +273,8 @@
             <div class="contact__title"><span>Contacto</span></div>
             <div class="contact__text">
                 <div class="contact__topic">
-                    ¿Tienes un hueco para mí?.... Contáctame!
-                    <p>Quiero aprender y seguir creciendo como programadora</p>
+                    ¿Tienes un hueco para mí?.... ¡Contáctame!
+                    <p>¡Quiero aprender y seguir creciendo como programadora!</p>
                 </div>
                 <div class="contact__topic-text">
                     <p>beita3320@hotmail.com</p>
@@ -280,6 +294,11 @@
                 </div>
             </div>
         </div>
+        <!-- FOOTER -->
+        <div class="footer">
+            <p>Creado por © BeaCL Design</p>
+        </div>
+
         <script src="scripts.js"></script>
     </body>
 </html>

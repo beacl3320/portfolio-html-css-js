@@ -8,6 +8,35 @@
     list-style: none;
     font-family: 'Raleway', sans-serif;
 }
+/* SCROLL ARROW BUTTON */
+.scroll{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 12px;
+    background: #a990ea;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+/* Custom Scroll Bar CSS */
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: #ffc4ff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #5c61a0;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #253960;
+}
 
 /* NAVIGATION */
 nav{
@@ -84,6 +113,7 @@ nav.sticky .navbar__icons a{
     right: 30px;
     top: 20px;
     display: none;
+    cursor: pointer;
 }
 
 /* HOME SECTION */
@@ -149,6 +179,10 @@ nav.sticky .navbar__icons a{
 }
 
 /* ABOUT SECTION CSS */
+section{
+    padding-top: 60px;
+}
+
 .about__content{
     width: 80%;
     margin: 40px auto;
@@ -368,6 +402,15 @@ nav.sticky .navbar__icons a{
 
 .contact__topic-text a:hover{
     color:#fff;
+}
+
+.footer{
+    text-align: center;
+    background: #5c61a0;
+    color: #253960;
+    font-weight: 1000;
+    height: 30px;
+    padding-top: 5px;
 }
 
 

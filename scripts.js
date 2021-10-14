@@ -26,4 +26,14 @@ window.onscroll = () => {
     }
 }
 
+/* Navegación cuando se clica en un elemento, el menú se cierra */
+let navLinks = document.querySelectorAll('.navbar__menu li a');
+for (var i = 0; i < navLinks.length; i++) {
+    navLinks[i].addEventListener('click', () => {
+        menuBtn.style.opacity = "1";
+        menuBtn.style.pointerEvents = "auto";
+        navbar.classList.remove('active');
+    });
+}
+
 
